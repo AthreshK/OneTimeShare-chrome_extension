@@ -1,0 +1,28 @@
+{
+  "name": "onetimeshare-chrome_extension",
+  "version": "1.0.0",
+  "description": "chrome extension that allows you to safely share your password for one time usage only",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AthreshK/OneTimeShare-chrome_extension.git"
+  },
+  "author": "Athresh Kiran",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AthreshK/OneTimeShare-chrome_extension/issues"
+  },
+  "homepage": "https://github.com/AthreshK/OneTimeShare-chrome_extension#readme",
+  "dependencies": {
+    "aes-js": "^3.1.2",
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "socket.io": "^3.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
